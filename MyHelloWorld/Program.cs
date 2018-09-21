@@ -8,6 +8,10 @@ namespace MyHelloWorld
 {
     class Program
     {
-        static void Main(string[] args) => Console.WriteLine("HelloWorld");
+        static void Main(string[] args)
+        {
+            String addtional_string = "By akebonolove";
+            Console.WriteLine($"HelloWorld {addtional_string}");
+        }
     }
 }
