@@ -10,8 +10,21 @@ namespace MyHelloWorld
     {
         static void Main(string[] args)
         {
+            //HelloWorld();
+            WorkingWIthIntergers();
+        }
+
+        private static void HelloWorld()
+        {
             String addtional_string = "By akebonolove";
             Console.WriteLine($"HelloWorld {addtional_string}");
+        }
+
+        private static void WorkingWIthIntergers()
+        {
+            int max = int.MaxValue;
+            int what = max + 3;
+            Console.WriteLine($"max = {max}, max+3 = {what}, min = {int.MinValue}");
         }
     }
 }
